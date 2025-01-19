@@ -18,6 +18,7 @@ const serverVerbs = ["GET",	"GET",	"GET",	"POST",	"GET",	"POST"];
 const serverPaths = ["/",	"/about",	"/contact",	"/login",	"/panel",	"/logout"];
 const serverResponses = ["Welcome to WEB700 Assignment 1",	"This assignment was prepared by Varsha Maria Alex",	"Varsha Maria Alex: vmalex@myseneca.ca", "User Logged In",	"Main Panel",	"Logout Complete"];
 
+
 //Creating the "web server simulator" Function - "httpRequest" 
 
 function httpRequest(httpVerb, path) {
@@ -41,7 +42,7 @@ const getRandomInt = (max) => {
 }
 
 
-// automatic testing
+// Automatic Testing
 const automateTests= () => {
   const testVerbs = ["GET", "POST"];
   const testPaths = ["/", "/about", "/contact", "/login", "/panel", "/logout", "/randomPath1", "/randomPath2"];
