@@ -18,7 +18,7 @@ console.log("Hello World! welcome");
 
 const serverVerbs = ["GET",	"GET",	"GET",	"POST",	"GET",	"POST"];
 const serverPaths = ["/",	"/about",	"/contact",	"/login",	"/panel",	"/logout"];
-const serverResponses = ["Welcome to WEB700 Assignment 1",	"This assignment was prepared by Asintha Jayasekara",	"Asintha Jayasekara: adjwisurumana-arachc@myseneca.ca", "User Logged In",	"Main Panel",	"Logout Complete"];
+const serverResponses = ["Welcome to WEB700 Assignment 1",	"This assignment was prepared by Varsha Maria Alex",	"Varsha Maria Alex: vmalex@myseneca.ca", "User Logged In",	"Main Panel",	"Logout Complete"];
 
 /* Step 4:Creating the "web server simulator" Function - "httpRequest" */
 
