@@ -14,9 +14,9 @@ console.log("Hello World!");
 
 //Creating the "Server Paths" 
 
-const serverVerbs = ["GET",	"GET",	"GET",	"POST",	"GET",	"POST"];
-const serverPaths = ["/",	"/about",	"/contact",	"/login",	"/panel",	"/logout"];
-const serverResponses = ["Welcome to WEB700 Assignment 1",	"This assignment was prepared by Varsha Maria Alex",	"Varsha Maria Alex: vmalex@myseneca.ca", "User Logged In",	"Main Panel",	"Logout Complete"];
+const serverVerbs = ["GET","GET","GET","POST","GET","POST"];
+const serverPaths = ["/","/about","/contact","/login","/panel","/logout"];
+const serverResponses = ["Welcome to WEB700 Assignment 1","This assignment was prepared by Varsha Maria Alex","Varsha Maria Alex: vmalex@myseneca.ca","User Logged In",	"Main Panel","Logout Complete"];
 
 
 //Creating the "web server simulator" Function - "httpRequest" 
